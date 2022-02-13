@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mwachakagrouplimited.mglic">
+
+    <uses-sdk tools:overrideLibrary="com.hover.sdk" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MGL"
+        android:fullBackupContent="true"
+        tools:targetApi="m">
+
+        <activity android:name="com.mwachakagrouplimited.mglic.activities.OrderSuccessActivity"
+            android:exported="false"/>
+        <activity android:name="com.mwachakagrouplimited.mglic.activities.PlaceYourOrderActivity"
+            android:exported="false"/>
+        <activity android:name="com.mwachakagrouplimited.mglic.activities.RestaurantMenuActivity"
+            android:exported="false"/>
+        <activity android:name="com.mwachakagrouplimited.mglic.hover.HoverActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name="com.mwachakagrouplimited.mglic.activities.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mwachakagrouplimited.mglic.activities.UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mwachakagrouplimited.mglic.activities.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mwachakagrouplimited.mglic.activities.BaseActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mwachakagrouplimited.mglic.activities.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mwachakagrouplimited.mglic.activities.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mwachakagrouplimited.mglic.activities.MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MGL.NoActionBar"/>
+        <activity
+            android:name="com.mwachakagrouplimited.mglic.activities.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.hover.ApiKey"
+            android:value="c040687f0302fd489dbcd313a301dcea" />
+
+    </application>
+
+</manifest>

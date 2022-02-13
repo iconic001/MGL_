@@ -1,0 +1,36 @@
+[
+    {
+      "name":"Mwachaka",
+      "address":"Kikuyu.",
+      "delivery_charge": 200,
+      "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.facebook.com%2FBefore-Family-Guy-I-was-Not-Aware-That-the-Bird-is-the-Word-253190134383%2F&psig=AOvVaw1Ky0MZ3881Pz6NdIswiHCJ&ust=1642846817304000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICa5svPwvUCFQAAAAAdAAAAABAD",
+
+      "hours":{
+        "Sunday":"11:00 AM - 7:00 PM",
+        "Monday":"10:00 AM - 9:00 PM",
+        "Tuesday":"10:00 AM - 10:00 PM",
+        "Wednesday":"10:00 AM - 11:00 PM",
+        "Thursday":"10:00 AM - 10:00 PM",
+        "Friday":"10:00 AM - 11:00 PM",
+        "Saturday":"10:00 AM - 2:00 PM"
+      },
+      "menus": [
+        {
+          "name": "Garlinger",
+          "price": 300,
+          "url": "https://149366112.v2.pressablecdn.com/wp-content/uploads/2017/08/blah.jpg"
+        },
+        {
+          "name": "Hot & Sweet",
+          "price": 300,
+          "url": "https://photos.google.com/u/0/album/AF1QipNdHWvTpUD7MbmGYqWlewmwr59Crm1VRghFSFFS/photo/AF1QipMyzEom3Dn0zOmRHk6DSO7QD99AOIc_j_Xos4LU"
+        },
+        {
+          "name": "HotSpice",
+          "price": 300,
+          "url": "https://drive.google.com/file/d/1Z36IOvKTRpMSXN-ROFEyo9ICrOtteS5J/view?usp=sharing"
+
+        }
+      ]
+    }
+]

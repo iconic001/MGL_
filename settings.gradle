@@ -1,0 +1,13 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral ()
+        maven { url 'https://maven.usehover.com/releases' }
+        jcenter()
+
+        maven { url 'https://jitpack.io' }
+    }
+}
+rootProject.name = "MGL"
+include ':app'

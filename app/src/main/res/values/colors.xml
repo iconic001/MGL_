@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="cream">#E37171</color>
+
+    <color name="selectedIconColor">#04E1F8</color>
+    <color name="defaultIconColor">#2B2B2B</color>
+    <color name="countTextColor">#fff</color>
+    <color name="circleColor">#fff</color>
+    <color name="countBackgroundColor">#F45E08</color>
+    <color name="backgroundColor">#04E1f8</color>
+    <color name="ShadowColor">#2E2E2E</color>
+    <color name="viewColor">#171717</color>
+
+    <color name="Blue">#0A4AEC</color>
+    <color name="red">#EF0A0A</color>
+    <color name="darkRed">#721919</color>
+    <color name="brightRed">#CD0000</color>
+    <color name="Purple">#6F13D8</color>
+    <color name="teal">#11EAD8</color>
+    <color name="orange">#FF5722</color>
+
+    <color name="SnackBarError">#7E1111</color>
+    <color name="SnackBarSuccess">#8BC34A</color>
+
+    <color name="colorLightGrey">#F1F1F1F1</color>
+
+    <color name="colorBorder">#E8E6E6</color>
+    <color name="colorDarkGrey">#878787</color>
+</resources>
